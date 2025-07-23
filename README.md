@@ -1,10 +1,18 @@
-# Wazuh + ELK Stack SIEM Project
+# Log Monitoring and Threat Detection using Wazuh + ELK Stack
 
-This project sets up a Security Information and Event Management (SIEM) system using Wazuh and the ELK Stack (Elasticsearch, Logstash, Kibana) for log monitoring and threat detection.
+This project sets up a Security Information and Event Management (SIEM) system using:
+
+- **Wazuh**: Log collection and threat detection
+- **Elasticsearch**: Log storage and indexing
+- **Logstash**: Parsing and filtering logs
+- **Kibana**: Visualization and dashboards
 
 ## Folder Structure
-- `setup/`: Installation scripts for Wazuh and ELK Stack
-- `configs/`: Sample config files
-- `test-logs/`: Test logs for demo
-- `screenshots/`: Project screenshots
-- `reports/`: Sample threat reports
+- `/configs`: Config files for Wazuh, Elasticsearch, Logstash, and Kibana
+- `/setup`: Shell scripts and installation steps
+- `/test-logs`: Sample logs for testing
+- `/reports`: Output of detections and incident reports
+- `/screenshots`: Visual evidence for documentation
+
+## Setup Instructions
+Coming soon...
